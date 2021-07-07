@@ -28,8 +28,16 @@
     border-radius: 20px;
     font-size: 1.3em;
     cursor: pointer;
+    transition: all 200ms;
 }
 
+.button:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+
+.last-row .button:hover, .saluti .button:hover{
+    box-shadow: 10px 10px 10px rgba(35, 35,  35, .5);
+}
 /* =================
     RULE
 ================= */
@@ -80,6 +88,7 @@ ul :nth-child(7){
     background-color: white;
     border-radius: 1em;
     color: black;
+    font-weight: bolder;
     transition: box-shadow 100ms;
     padding: 5px 20px
 }
@@ -118,11 +127,6 @@ header p{
 
 .btn > .button{
     margin: 0 10px;
-}
-
-.button:hover{
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
-    transform: scale(1.1, 1.1);
 }
 
 .white{
