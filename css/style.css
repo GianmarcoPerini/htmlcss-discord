@@ -1,0 +1,221 @@
+/* =================
+    RULE
+================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.fl-l{
+    float: left;
+}
+
+.fl-r{
+    float: right;
+}
+
+.block{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* =================
+    RULE
+================= */
+
+/* =================
+    HEADER
+================= */
+
+.first{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 70%;
+    margin: 0px auto;
+}
+
+ul {
+    list-style: none;
+    padding: 30px 0 
+}
+
+li{
+    line-height: 25px;
+    margin: 0 20px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.m1:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 0;
+}
+
+ul :nth-child(2){
+    margin-left: 100px
+}
+
+ul :nth-child(1){
+    margin-left: 0
+}
+
+ul :nth-child(7){
+    margin: 0;
+    background-color: white;
+    border-radius: 1em;
+    color: black;
+    transition: box-shadow 100ms;
+    padding: 5px 20px
+}
+
+ul :nth-child(7):hover{
+    color: rgb(57, 181, 230);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
+}
+
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+header p, header h1{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+header p{
+    font-size: 1.4em
+}
+
+.btn{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 1.3em
+}
+
+.button:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    transform: scale(1.1, 1.1);
+}
+
+.white{
+    background-color: white;
+    border: none
+}
+.black{
+    background-color: black;
+    color: white;
+    border: none
+}
+/* =================
+    HEADER
+================= */
+
+/* =================
+    MAIN
+================= */
+
+.center-box-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.foto-box, .txt-box-dx, .txt-box-sx{
+    width: 49.8%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.foto-box img{
+    width: 100%;
+}
+
+.txt-box-dx > p{
+    padding: 0 0 0 300px;
+    font-size: 1.5em;
+    margin-top: 40px
+}
+
+.txt-box-dx > h1{
+    padding: 0 0 0 300px;
+    font-size: 3em
+}
+
+.txt-box-sx > p{
+    padding: 0 300px 0 0;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.txt-box-sx > h1{
+    padding: 0 300px 0 0;
+    font-size: 3em;
+}
+
+.txt-box-line, .foto-box-line{
+text-align: center
+}
+
+.foto-box-line img{
+    width: 100%
+}
+
+.txt-box-line > p{
+    font-size: 1.5em;
+}
+
+.txt-box-line > h1{
+    font-size: 3em;
+}
+
+.saluti{
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 100px
+}
+
+.saluti > button{
+    margin-top: 30px;
+    background-color: rgb(105, 105, 199);
+    color: white;
+    border: none;
+}
+
+/* =================
+    MAIN
+================= */
