@@ -190,16 +190,18 @@ text-align: center
 
 .foto-box-line img{
     width: 100%;
-    margin-top: 100px;
 }
 
 .txt-box-line > p{
     font-size: 1.5em;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .txt-box-line > h1{
     font-size: 3em;
+    padding-top: 150px;
+
+
 }
 
 .saluti{
@@ -208,6 +210,10 @@ text-align: center
     height: 300px;
     text-align: center;
     padding: 100px
+}
+
+.gray{
+    background-color: rgb(228, 228, 228);
 }
 
 .saluti > button{
